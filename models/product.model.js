@@ -8,4 +8,5 @@ let ProductSchema = new Schema({
 
 
 // Export the model
+//module.export
 module.exports = mongoose.model('Product', ProductSchema);
